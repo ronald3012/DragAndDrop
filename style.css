@@ -1,0 +1,37 @@
+#circulo, .circulo {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(33, 145, 173);
+    border-radius: 500px;
+    box-shadow: 1px 1px 4px #fff;
+
+}
+.circulos{
+    display: flex;
+}
+
+#cuadrado {
+    min-height: 300px;
+    margin: 20px;
+    background-color: #009688;
+    transition: all .1s;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 9px 10px 3px darkgrey;
+}
+#cuadrado p.alert{
+    position: absolute;
+    left: 311px;
+    top: 91px;
+    color: #fff;
+    font-size: 33px;
+    display:none;
+    transition: all 1s;
+}
+button{
+    padding: 10px 20px;
+    border: solid lightgray;
+    margin: 20px;
+
+}
